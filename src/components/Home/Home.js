@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -32,8 +31,8 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
-            <Lottie animationData={animationData} loop={true} size={200} />
+            <Col md={3} style={{ paddingBottom: 10 }}>
+            <Lottie animationData={animationData} loop={true} style={{ width: 450, height: 450 }} color={'#1b1429'} />
               {/*<img
                 src={homeLogo}
                 alt="home pic"
